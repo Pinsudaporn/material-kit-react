@@ -10,10 +10,10 @@ function generateToken(): string {
 
 const user = {
   id: 'USR-000',
-  avatar: '/assets/avatar.png',
-  firstName: 'Sofia',
-  lastName: 'Rivers',
-  email: 'sofia@devias.io',
+  avatar: '/assets/one.png.gif',
+  firstName: 'pin',
+  lastName: 'dev',
+  email: 'pin@gmail.com',
 } satisfies User;
 
 export interface SignUpParams {
