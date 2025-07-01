@@ -15,6 +15,7 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import Select from '@mui/material/Select';
 
 const states = [
+  { value: 'thai', label: 'Thailand'},
   { value: 'alabama', label: 'Alabama' },
   { value: 'new-york', label: 'New York' },
   { value: 'san-francisco', label: 'San Francisco' },
@@ -41,7 +42,7 @@ export function AccountDetailsForm(): React.JSX.Element {
             >
               <FormControl fullWidth required>
                 <InputLabel>First name</InputLabel>
-                <OutlinedInput defaultValue="Sofia" label="First name" name="firstName" />
+                <OutlinedInput defaultValue="Pindev" label="First name" name="firstName" />
               </FormControl>
             </Grid>
             <Grid
@@ -52,7 +53,7 @@ export function AccountDetailsForm(): React.JSX.Element {
             >
               <FormControl fullWidth required>
                 <InputLabel>Last name</InputLabel>
-                <OutlinedInput defaultValue="Rivers" label="Last name" name="lastName" />
+                <OutlinedInput defaultValue="FrontEnd" label="Last name" name="lastName" />
               </FormControl>
             </Grid>
             <Grid
@@ -63,7 +64,7 @@ export function AccountDetailsForm(): React.JSX.Element {
             >
               <FormControl fullWidth required>
                 <InputLabel>Email address</InputLabel>
-                <OutlinedInput defaultValue="sofia@devias.io" label="Email address" name="email" />
+                <OutlinedInput defaultValue="pin@gmail.com" label="Email address" name="email" />
               </FormControl>
             </Grid>
             <Grid
