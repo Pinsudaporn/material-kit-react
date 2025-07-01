@@ -1,5 +1,5 @@
 
-
+![Devias Kit - React](https://github.com/Pinsudaporn/material-kit-react/blob/main/public/assets/test.png)
 
 
 > Free React Admin Dashboard made with [MUI's](https://mui.com) components, [React](https://reactjs.org) and of course [Next.js](https://github.com/vercel/next.js) to boost your app development process!
