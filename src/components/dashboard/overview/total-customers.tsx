@@ -8,10 +8,10 @@ import Typography from "@mui/material/Typography";
 import { Translate } from "@phosphor-icons/react/dist/ssr";
 
 export interface TotalCustomersProps {
-	diff?: number;
-	trend: "up" | "down";
+	// diff?: number;
+	// trend: "up" | "down";
 	sx?: SxProps;
-	value: string;
+	// value: string;
 }
 
 export function TotalCustomers({

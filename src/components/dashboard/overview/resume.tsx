@@ -173,7 +173,7 @@ export default function ResumePage() {
 					<Typography variant="h6" gutterBottom>
 						<strong>Education</strong>
 					</Typography>
-					<Budget value="$24,000" diff={12.3} trend="up" sx={{ maxWidth: 800 }} />
+					<Budget sx={{ maxWidth: 800 }} />
 				</Box>
 
 				{/* Right */}
@@ -181,7 +181,7 @@ export default function ResumePage() {
 					<Typography variant="h6" gutterBottom>
 						<strong>Language</strong>
 					</Typography>
-					<TotalCustomers value="1.6k" diff={16} trend="down" sx={{ maxWidth: 200 }} />
+					<TotalCustomers sx={{ maxWidth: 200 }} />
 				</Box>
 			</Stack>
 		</Box>

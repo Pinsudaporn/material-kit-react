@@ -7,10 +7,10 @@ import type { SxProps } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
 export interface BudgetProps {
-	diff?: number;
-	trend: "up" | "down";
+	// diff?: number;
+	// trend: "up" | "down";
 	sx?: SxProps;
-	value: string;
+	// value: string;
 }
 
 export function Budget({
