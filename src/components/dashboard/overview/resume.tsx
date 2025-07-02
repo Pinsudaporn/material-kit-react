@@ -168,20 +168,20 @@ export default function ResumePage() {
 				</li>
 			</Box>
 			<Stack direction={{ xs: "column", md: "row" }} spacing={4} justifyContent="space-between">
-				{/* Left */}
-				<Box>
+				{/* Left - Education (70%) */}
+				<Box sx={{ flex: 7 }}>
 					<Typography variant="h6" gutterBottom>
 						<strong>Education</strong>
 					</Typography>
-					<Budget value="$24,000" diff={12.3} trend="up" sx={{ maxWidth: 800 }} />
+					<Budget sx={{ width: "100%" }} />
 				</Box>
 
-				{/* Right */}
-				<Box>
+				{/* Right - Language (30%) */}
+				<Box sx={{ flex: 3 }}>
 					<Typography variant="h6" gutterBottom>
 						<strong>Language</strong>
 					</Typography>
-					<TotalCustomers value="1.6k" diff={16} trend="down" sx={{ maxWidth: 200 }} />
+					<TotalCustomers sx={{ width: "100%" }} />
 				</Box>
 			</Stack>
 		</Box>

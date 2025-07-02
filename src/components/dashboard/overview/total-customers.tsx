@@ -8,13 +8,18 @@ import Typography from "@mui/material/Typography";
 import { Translate } from "@phosphor-icons/react/dist/ssr";
 
 export interface TotalCustomersProps {
-	diff?: number;
-	trend: "up" | "down";
+	// diff?: number;
+	// trend: "up" | "down";
 	sx?: SxProps;
-	value: string;
+	// value: string;
 }
 
-export function TotalCustomers({ diff, trend, sx, value }: TotalCustomersProps): React.JSX.Element {
+export function TotalCustomers({
+	// diff,
+	// trend,
+	sx,
+	// value
+}: TotalCustomersProps): React.JSX.Element {
 	// const TrendIcon = trend === "up" ? ArrowUpIcon : ArrowDownIcon;
 	// const trendColor = trend === "up" ? "var(--mui-palette-success-main)" : "var(--mui-palette-error-main)";
 

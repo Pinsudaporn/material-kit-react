@@ -7,13 +7,18 @@ import type { SxProps } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
 export interface BudgetProps {
-	diff?: number;
-	trend: "up" | "down";
+	// diff?: number;
+	// trend: "up" | "down";
 	sx?: SxProps;
-	value: string;
+	// value: string;
 }
 
-export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Element {
+export function Budget({
+	// diff,
+	// trend,
+	sx,
+	// value
+}: BudgetProps): React.JSX.Element {
 	// const TrendIcon = trend === "up" ? ArrowUpIcon : ArrowDownIcon;
 	// const trendColor = trend === "up" ? "var(--mui-palette-success-main)" : "var(--mui-palette-error-main)";
 
@@ -26,7 +31,10 @@ export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Eleme
 							<Typography variant="h6">Rajamangala University Of Technology Thanyaburis</Typography>
 
 							<Typography color="text.secondary" variant="overline">
-								Bachelor of Business Administration (Business Computer) Second-Class Honours
+								Bachelor of Business Administration (Business Computer)
+							</Typography>
+							<Typography color="text.secondary" variant="overline">
+								Second-Class Honours
 							</Typography>
 							<Typography color="text.secondary" variant="overline">
 								2019-2023
@@ -34,7 +42,7 @@ export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Eleme
 						</Stack>
 						<Avatar
 							src="/assets/logo.png"
-							sx={{ height: "90px", width: "90px" }}
+							sx={{ height: "120px", width: "120px" }}
 							variant="square"
 							imgProps={{
 								style: {
