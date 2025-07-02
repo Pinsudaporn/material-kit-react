@@ -31,7 +31,10 @@ export function Budget({
 							<Typography variant="h6">Rajamangala University Of Technology Thanyaburis</Typography>
 
 							<Typography color="text.secondary" variant="overline">
-								Bachelor of Business Administration (Business Computer) Second-Class Honours
+								Bachelor of Business Administration (Business Computer)
+							</Typography>
+							<Typography color="text.secondary" variant="overline">
+								Second-Class Honours
 							</Typography>
 							<Typography color="text.secondary" variant="overline">
 								2019-2023
@@ -39,7 +42,7 @@ export function Budget({
 						</Stack>
 						<Avatar
 							src="/assets/logo.png"
-							sx={{ height: "90px", width: "90px" }}
+							sx={{ height: "120px", width: "120px" }}
 							variant="square"
 							imgProps={{
 								style: {
