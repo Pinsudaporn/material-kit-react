@@ -35,10 +35,10 @@ export function TotalCustomers({
 							<Typography variant="h6">Thai</Typography>
 							<Typography variant="h6">English</Typography>
 						</Stack>
-						<Avatar sx={{ backgroundColor: "blue", height: "56px", width: "56px" }}>
-							{/* <UsersIcon fontSize="var(--icon-fontSize-lg)" /> */}
+						{/* <Avatar sx={{ backgroundColor: "blue", height: "56px", width: "56px" }}>
+							<UsersIcon fontSize="var(--icon-fontSize-lg)" />
 							<Translate fontSize="var(--icon-fontSize-lg)" />
-						</Avatar>
+						</Avatar> */}
 					</Stack>
 					{/* {diff ? (
             <Stack sx={{ alignItems: 'center' }} direction="row" spacing={2}>

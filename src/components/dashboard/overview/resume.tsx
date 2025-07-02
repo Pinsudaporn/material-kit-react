@@ -169,7 +169,7 @@ export default function ResumePage() {
 			</Box>
 			<Stack direction={{ xs: "column", md: "row" }} spacing={4} justifyContent="space-between">
 				{/* Left - Education (70%) */}
-				<Box sx={{ flex: 7 }}>
+				<Box sx={{ flex: 8 }}>
 					<Typography variant="h6" gutterBottom>
 						<strong>Education</strong>
 					</Typography>
@@ -177,7 +177,7 @@ export default function ResumePage() {
 				</Box>
 
 				{/* Right - Language (30%) */}
-				<Box sx={{ flex: 3 }}>
+				<Box sx={{ flex: 2 }}>
 					<Typography variant="h6" gutterBottom>
 						<strong>Language</strong>
 					</Typography>
