@@ -14,7 +14,12 @@ export interface TotalCustomersProps {
 	value: string;
 }
 
-export function TotalCustomers({ diff, trend, sx, value }: TotalCustomersProps): React.JSX.Element {
+export function TotalCustomers({
+	// diff,
+	// trend,
+	sx,
+	// value
+}: TotalCustomersProps): React.JSX.Element {
 	// const TrendIcon = trend === "up" ? ArrowUpIcon : ArrowDownIcon;
 	// const trendColor = trend === "up" ? "var(--mui-palette-success-main)" : "var(--mui-palette-error-main)";
 

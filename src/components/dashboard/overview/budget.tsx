@@ -13,7 +13,12 @@ export interface BudgetProps {
 	value: string;
 }
 
-export function Budget({ diff, trend, sx, value }: BudgetProps): React.JSX.Element {
+export function Budget({
+	// diff,
+	// trend,
+	sx,
+	// value
+}: BudgetProps): React.JSX.Element {
 	// const TrendIcon = trend === "up" ? ArrowUpIcon : ArrowDownIcon;
 	// const trendColor = trend === "up" ? "var(--mui-palette-success-main)" : "var(--mui-palette-error-main)";
 
